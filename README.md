@@ -83,15 +83,15 @@ metodo,N,caso,passos,tempo_ms
 Bubble,8,RGM,37,0.0000
 Selection,8,RGM,34,0.0000
 Insertion,8,RGM,37,0.0000
-Bubble,100,Aleatorio,7348,0.0000
-Selection,100,Aleatorio,5046,0.0000
+Bubble,100,Aleatorio,7386,0.0000
+Selection,100,Aleatorio,5044,0.0000
 Insertion,100,Aleatorio,5075,0.0000
-Bubble,1000,Aleatorio,744774,0.6000
+Bubble,1000,Aleatorio,751294,0.4000
 Selection,1000,Aleatorio,500492,0.2000
-Insertion,1000,Aleatorio,506833,0.2000
-Bubble,10000,Aleatorio,74960133,38.2000
-Selection,10000,Aleatorio,50004989,25.6000
-Insertion,10000,Aleatorio,50029526,18.2000
+Insertion,1000,Aleatorio,500526,0.2000
+Bubble,10000,Aleatorio,75066211,40.4000
+Selection,10000,Aleatorio,50004989,25.0000
+Insertion,10000,Aleatorio,50284063,18.6000
 ```
 
 <!-- FIM DA SEÇÃO DE EXEMPLO CSV -->
@@ -157,5 +157,6 @@ Baseado nos testes com dados aleatórios, o Insertion Sort se mostrou o "melhor"
 
 
 * Para N=10.000, o tempo de todos os métodos O(n²) começa a se tornar impraticável (quase 1 segundo para o Bubble Sort), demonstrando a necessidade clara de algoritmos O(n log n) (como Merge ou Quick Sort) para conjuntos de dados maiores.
+
 
 
