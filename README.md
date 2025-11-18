@@ -82,15 +82,15 @@ A política de contagem de "passos" (operações-chave) foi definida da seguinte
 Bubble,8,RGM,37,0.0000
 Selection,8,RGM,34,0.0000
 Insertion,8,RGM,37,0.0000
-Bubble,100,Aleatorio,7250,0.0000
-Selection,100,Aleatorio,5046,0.0000
-Insertion,100,Aleatorio,5018,0.0000
-Bubble,1000,Aleatorio,750257,0.4000
-Selection,1000,Aleatorio,500492,0.0000
-Insertion,1000,Aleatorio,504934,0.2000
-Bubble,10000,Aleatorio,74936606,37.8000
-Selection,10000,Aleatorio,50004989,24.6000
-Insertion,10000,Aleatorio,49909427,18.2000
+Bubble,100,Aleatorio,7410,0.0000
+Selection,100,Aleatorio,5044,0.0000
+Insertion,100,Aleatorio,5322,0.0000
+Bubble,1000,Aleatorio,752152,0.4000
+Selection,1000,Aleatorio,500492,0.4000
+Insertion,1000,Aleatorio,496604,0.2000
+Bubble,10000,Aleatorio,74959317,40.0000
+Selection,10000,Aleatorio,50004987,24.4000
+Insertion,10000,Aleatorio,49795601,19.6000
 ```
 
 <!-- FIM DA SEÇÃO DE EXEMPLO CSV -->
@@ -156,6 +156,7 @@ Baseado nos testes com dados aleatórios, o Insertion Sort se mostrou o "melhor"
 
 
 * Para N=10.000, o tempo de todos os métodos O(n²) começa a se tornar impraticável (quase 1 segundo para o Bubble Sort), demonstrando a necessidade clara de algoritmos O(n log n) (como Merge ou Quick Sort) para conjuntos de dados maiores.
+
 
 
 
